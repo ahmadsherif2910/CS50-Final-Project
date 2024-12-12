@@ -118,18 +118,6 @@ The app uses the following open-source JSON files:
 - Quran data: [quran.json](https://raw.githubusercontent.com/risan/quran-json/main/data/quran.json)
 - Chapter data: [chapters.json](https://raw.githubusercontent.com/risan/quran-json/main/data/chapters/en.json)
 
-## Screenshots
-
-_Add screenshots of the application interface here._
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
-
 ## Acknowledgments
 
 Special thanks to [risan/quran-json](https://github.com/risan/quran-json) for providing the Quran data in JSON format.
