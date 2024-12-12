@@ -1,6 +1,6 @@
 # Quran Viewer
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/C0Fk-J1WmAs
 
 #### Description:
 Quran Viewer is an interactive Python-based application designed to provide a comprehensive yet user-friendly interface for exploring the Quran. This application caters to both casual readers and serious students of the Quran by offering features such as chapter navigation, verse search, bookmarking, and translation viewing. The project aims to bridge accessibility and functionality, allowing users to delve into the Quran's text and its contextual meaning effortlessly.
@@ -8,6 +8,9 @@ Quran Viewer is an interactive Python-based application designed to provide a co
 One of the standout features of Quran Viewer is its simplicity and ease of use. Users can navigate through the Quran chapter by chapter and verse by verse with intuitive controls. For those seeking specific content, the search functionality enables keyword-based exploration, delivering results with clear references to chapters and verses. Additionally, the ability to bookmark verses allows users to save and revisit their favorite parts of the Quran with ease. For inspiration or curiosity, the app's random verse generator provides a unique way to discover new passages.
 
 Understanding the Quran's message is crucial, and to facilitate this, the application includes translations for each chapter. These translations provide users with a deeper understanding of the text, making it more accessible to non-Arabic speakers. The application's design focuses on both functionality and inclusivity, ensuring it serves a diverse audience effectively.
+
+## Disclaimer
+I used AI after i finished writing the code to help me align text and name variables better
 
 ## Features
 
