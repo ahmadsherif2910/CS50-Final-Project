@@ -72,14 +72,6 @@ _Add screenshots of the application interface here._
 6. **Translations:**
    Click `View Translation` to display the translation of the current chapter.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
-
 ## Acknowledgments
 
 Special thanks to [risan/quran-json](https://github.com/risan/quran-json) for providing the Quran data in JSON format.
