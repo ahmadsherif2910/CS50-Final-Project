@@ -33,10 +33,6 @@ The app uses the following open-source JSON files:
 - Quran data: [quran.json](https://raw.githubusercontent.com/risan/quran-json/main/data/quran.json)
 - Chapter data: [chapters.json](https://raw.githubusercontent.com/risan/quran-json/main/data/chapters/en.json)
 
-## Screenshots
-
-_Add screenshots of the application interface here._
-
 ## How to Use
 
 1. **Navigation:**
