@@ -26,21 +26,6 @@ Quran Viewer is a simple Python-based graphical application that allows users to
 - `urllib`
 - `json`
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/quran-viewer.git
-   cd quran-viewer
-   ```
-
-2. Run the application:
-
-   ```bash
-   python quran_viewer.py
-   ```
-
 ## Data Sources
 
 The app uses the following open-source JSON files:
