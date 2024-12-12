@@ -3,87 +3,88 @@
 #### Video Demo: <URL HERE>
 
 #### Description:
-Quran Viewer is a Python-based graphical application designed to provide an interactive way to explore and engage with the Quran. The application leverages open-source JSON data to present the Quran's text, chapter translations, and other features. This project aims to make Quranic study more accessible through intuitive navigation, powerful search capabilities, and user-friendly design.
+Quran Viewer is an interactive Python-based application designed to provide a comprehensive yet user-friendly interface for exploring the Quran. This application caters to both casual readers and serious students of the Quran by offering features such as chapter navigation, verse search, bookmarking, and translation viewing. The project aims to bridge accessibility and functionality, allowing users to delve into the Quran's text and its contextual meaning effortlessly.
+
+One of the standout features of Quran Viewer is its simplicity and ease of use. Users can navigate through the Quran chapter by chapter and verse by verse with intuitive controls. For those seeking specific content, the search functionality enables keyword-based exploration, delivering results with clear references to chapters and verses. Additionally, the ability to bookmark verses allows users to save and revisit their favorite parts of the Quran with ease. For inspiration or curiosity, the app's random verse generator provides a unique way to discover new passages.
+
+Understanding the Quran's message is crucial, and to facilitate this, the application includes translations for each chapter. These translations provide users with a deeper understanding of the text, making it more accessible to non-Arabic speakers. The application's design focuses on both functionality and inclusivity, ensuring it serves a diverse audience effectively.
 
 ## Features
 
 - **View Quranic Chapters and Verses:**
-  Navigate through the Quran chapter by chapter and verse by verse, with clear and organized labels displaying the current chapter and verse.
+  Navigate seamlessly through the Quran, with clear labels displaying the current chapter and verse.
 
 - **Search for Verses:**
-  A search feature allows users to find verses containing specific keywords, providing results with chapter and verse references.
+  Quickly find verses containing specific keywords, with results presented alongside chapter and verse details.
 
 - **Bookmark Verses:**
-  Users can save their favorite verses for quick access later, with an easy-to-use bookmarking system.
+  Save your favorite verses for future reference using the bookmarking system.
 
 - **Random Verse Display:**
-  For inspiration or curiosity, the app can display a random verse from the Quran.
+  Discover new passages with the random verse generator.
 
 - **View Translations:**
-  Each chapter includes a translation summary to aid understanding.
+  Each chapter's translation provides contextual understanding of the Quran's message.
 
 ## Project Files and Their Purpose
 
 ### `quran_viewer.py`
-This is the main Python script containing the application logic. It uses the following key components:
+This main script encapsulates all application logic and serves as the core of the project. Key functionalities include:
 
 1. **Data Retrieval:**
-   - Fetches Quranic data and chapter information from open-source JSON files hosted online.
-   - Parses JSON data to provide structured information for display and search.
+   - Fetches Quranic text and chapter metadata from open-source JSON files hosted online.
+   - Utilizes Python's `urllib` and `json` libraries for seamless integration of external data.
 
 2. **User Interface:**
-   - Built using the `tkinter` library.
-   - Provides buttons, labels, and additional windows for features like search, bookmarks, and translations.
+   - Built using the `tkinter` library to ensure a lightweight and responsive graphical interface.
+   - Implements buttons, labels, and additional windows for intuitive user interaction.
 
-3. **Features Implementation:**
+3. **Core Features:**
    - Navigation controls for chapters and verses.
-   - Search functionality with keyword matching across verses.
-   - Bookmark management for saving and viewing favorite verses.
-   - Random verse selection using Python's `random` module.
-
-4. **Event Handling:**
-   - Implements click events for all buttons to update the display or open new windows for additional functionality.
+   - Search functionality for retrieving verses based on keywords.
+   - Bookmark management for saving and revisiting favorite passages.
+   - Random verse selection, offering a new way to engage with the text.
 
 ### Data Files
+
 - **`quran.json`**:
-  Contains the Quranic text, organized by chapters and verses.
+  Contains the Quranic text organized by chapters and verses.
 
 - **`chapters.json`**:
-  Provides metadata about each chapter, including names and translations.
+  Provides metadata for each chapter, including names and translations.
 
-These files are fetched dynamically from [risan/quran-json](https://github.com/risan/quran-json), ensuring up-to-date and reliable content.
+These files are sourced dynamically from the [risan/quran-json](https://github.com/risan/quran-json) repository, ensuring accuracy and reliability.
 
 ## Design Choices and Considerations
 
-1. **Why `tkinter` for GUI?**
-   - `tkinter` is a standard Python library, meaning no additional installations are required.
-   - It provides sufficient functionality for a simple and clean user interface.
+1. **GUI Framework Selection:**
+   `tkinter` was chosen for its simplicity and out-of-the-box availability in Python. While other frameworks like PyQt or Kivy offer advanced features, `tkinter` provided the right balance of functionality and ease of use for this project.
 
-2. **JSON Data Source:**
-   - The decision to use an open-source Quran JSON repository ensures the app remains lightweight and avoids the need for a local database.
+2. **Data Source:**
+   Using the `risan/quran-json` repository ensured the project remained lightweight while offering comprehensive and accurate Quranic data. This choice eliminated the need for a local database, reducing complexity.
 
-3. **Modular Design:**
-   - Features like searching, bookmarking, and random verse display are encapsulated in their respective functions for maintainability and scalability.
+3. **Feature Prioritization:**
+   The features were selected based on their relevance to users. For instance, the random verse generator and search functionality cater to both casual and scholarly users, enhancing the application's versatility.
 
-4. **Versatility of Use:**
-   - Features like random verse display and keyword search were added to cater to a broader audience, including casual readers and serious students.
+4. **Scalability:**
+   The modular design of the code allows for future enhancements, such as adding multilingual translations or advanced search filters.
 
-5. **Simplified Navigation:**
-   - The use of buttons for navigation ensures that the app is easy to use, even for individuals unfamiliar with technical software.
+5. **User Experience:**
+   The navigation and interaction design emphasize simplicity, ensuring the application is accessible to users of all technical backgrounds.
 
 ## How to Use
 
 1. **Navigation:**
-   - Use the `<< Previous Chapter`, `Next Chapter >>`, `<< Previous Verse`, and `Next Verse >>` buttons to move through the Quran.
+   - Use the `<< Previous Chapter`, `Next Chapter >>`, `<< Previous Verse`, and `Next Verse >>` buttons to explore the Quran.
 
 2. **Search:**
-   - Click `Search Verse`, enter a keyword, and view a list of matching verses.
+   - Click `Search Verse`, enter a keyword, and view matching verses with chapter and verse references.
 
 3. **Bookmarking:**
-   - Click `Bookmark Verse` to save the current verse. View saved bookmarks via the `View Bookmarks` button.
+   - Click `Bookmark Verse` to save a verse. View all saved bookmarks via the `View Bookmarks` button.
 
 4. **Random Verse:**
-   - Click `Random Verse` to display a random chapter and verse.
+   - Click `Random Verse` to display a randomly selected chapter and verse.
 
 5. **Translations:**
    - Click `View Translation` to see the translation of the current chapter.
@@ -91,7 +92,7 @@ These files are fetched dynamically from [risan/quran-json](https://github.com/r
 ## Requirements
 
 - Python 3.x
-- `tkinter` (usually included with Python)
+- `tkinter` (included with Python)
 - `urllib`
 - `json`
 
@@ -132,4 +133,5 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 ## Acknowledgments
 
 Special thanks to [risan/quran-json](https://github.com/risan/quran-json) for providing the Quran data in JSON format.
+
 
